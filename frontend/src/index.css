@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black text-zinc-100 antialiased font-sans overflow-x-hidden;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+    background-size: 36px 36px;
+  }
+}
+
+.glass-card {
+  @apply bg-zinc-950 border border-zinc-800 rounded-lg shadow-sm hover:border-red-900 transition-all duration-200;
+}
+
+.glass-card-sm {
+  @apply bg-zinc-950 border border-zinc-800 rounded-lg shadow-sm transition-all duration-200;
+}
+
+.copilot_drawer {
+  @apply fixed inset-y-0 right-0 z-50 w-full max-w-md overflow-y-auto border-l border-slate-800 bg-slate-950 p-6 shadow-2xl;
+  animation: slide_in_left 180ms ease-out;
+}
+
+.audit_header {
+  @apply flex items-center justify-between border-b border-slate-800 pb-4;
+}
+
+.audit_heading,
+.tool_name_group {
+  @apply flex items-center;
+}
+
+.audit_heading {
+  @apply gap-2.5;
+}
+
+.audit_icon {
+  @apply rounded-xl border border-purple-500/20 bg-purple-500/10 p-2 text-purple-400;
+}
+
+.audit_icon_symbol,
+.drawer_close_icon {
+  @apply h-5 w-5;
+}
+
+.audit_title_group {
+  @apply space-y-0.5;
+}
+
+.audit_title {
+  @apply text-sm font-bold text-white;
+}
+
+.audit_subtitle {
+  @apply text-[11px] text-slate-400;
+}
+
+.drawer_close_button {
+  @apply rounded-lg p-1 text-slate-400 transition hover:bg-slate-900 hover:text-white;
+}
+
+.tool_call_list {
+  @apply mt-6 space-y-4;
+}
+
+.empty_audit_message {
+  @apply py-8 text-center text-xs italic text-slate-500;
+}
+
+.tool_call_card {
+  @apply space-y-2 rounded-xl border border-slate-800 bg-slate-900/90 p-4 text-xs;
+}
+
+.tool_call_header {
+  @apply flex items-center justify-between;
+}
+
+.tool_name_group {
+  @apply gap-2;
+}
+
+.tool_success_icon {
+  @apply h-3.5 w-3.5 text-emerald-400;
+}
+
+.tool_name {
+  @apply font-mono font-bold text-indigo-300;
+}
+
+.tool_type_label {
+  @apply rounded bg-slate-800 px-2 py-0.5 text-[10px] text-slate-400;
+}
+
+.audit_section {
+  @apply space-y-1;
+}
+
+.audit_label {
+  @apply text-[10px] font-bold uppercase text-slate-400;
+}
+
+.json_panel {
+  @apply overflow-x-auto rounded border border-slate-800/80 bg-slate-950 p-2 text-[11px] font-mono;
+}
+
+.parameters_panel {
+  @apply text-amber-300/90;
+}
+
+.result_panel {
+  @apply max-h-40 text-emerald-400/90;
+}
+
+@keyframes slide_in_left {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3f3f46;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #dc2626;
+}
