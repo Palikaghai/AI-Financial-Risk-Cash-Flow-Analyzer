@@ -1,10 +1,3 @@
-# 🚀 AI Cash-Flow Copilot
-
-> **Razorpay AI Builder Internship 2026 – Open Track**  
-> *Real-Time Financial Intelligence, ML Cash-Flow Forecasting, Multi-Vector Anomaly Detection, & Tool-Grounded AI Agent for SMBs and E-Commerce Merchants.*
-
----
-
 ## 🌟 Executive Summary
 
 Small and medium-sized businesses (SMBs) and e-commerce merchants frequently suffer from sudden liquidity crises despite being profitable on paper. Unpredictable cash inflows, unexpected category expense spikes, overdue receivables (AR), and duplicate billing charges can deplete cash reserves faster than traditional accounting software alerts business owners.
