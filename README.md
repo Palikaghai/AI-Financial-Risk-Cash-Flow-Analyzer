@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🚀 AI Cash-Flow Copilot
 
 > **Razorpay AI Builder Internship 2026 – Open Track**  
