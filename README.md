@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚀 AI Cash-Flow Copilot
 
 > **Razorpay AI Builder Internship 2026 – Open Track**  
@@ -195,3 +196,6 @@ pytest -v
 
 ## ⚖️ License & Track Info
 Created for the **Razorpay AI Builder Internship 2026 – Open Track**.
+=======
+# AI-Cash-Flow-Analyzer
+>>>>>>> 2b5db13355d49c28c1be8f9b435a8c6f25e25518
