@@ -2,12 +2,6 @@
 
 Small and medium-sized businesses (SMBs) and e-commerce merchants frequently suffer from sudden liquidity crises despite being profitable on paper. Unpredictable cash inflows, unexpected category expense spikes, overdue receivables (AR), and duplicate billing charges can deplete cash reserves faster than traditional accounting software alerts business owners.
 
-**AI Cash-Flow Copilot** solves this by providing:
-1. **Deterministic ML Cash-Flow Forecasting**: Holt-Winters time-series modeling with 7-day cyclical seasonality and variance confidence bounds (7d, 14d, 30d).
-2. **Multi-Vector Anomaly Detection**: Statistical Z-score outlier detection, expense spikes vs category historical baselines, and duplicate subscription transaction flags.
-3. **Explainable Risk & Solvency Index (0–100)**: Quantitative scoring of 6 health factors (Cash Runway, Revenue Momentum, Expense Ratios, Overdue AR Ratio, 7-Day Obligation Coverage, and Volatility).
-4. **Tool-Grounded AI Agent**: A function-calling AI Copilot that directly queries database tables and ML pipelines—ensuring natural language answers are 100% grounded in facts with zero financial hallucinations.
-
 ---
 
 ##  System Architecture
