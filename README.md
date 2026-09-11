@@ -1,4 +1,4 @@
-## 🌟 Executive Summary
+## Executive Summary
 
 Small and medium-sized businesses (SMBs) and e-commerce merchants frequently suffer from sudden liquidity crises despite being profitable on paper. Unpredictable cash inflows, unexpected category expense spikes, overdue receivables (AR), and duplicate billing charges can deplete cash reserves faster than traditional accounting software alerts business owners.
 
@@ -10,7 +10,7 @@ Small and medium-sized businesses (SMBs) and e-commerce merchants frequently suf
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
                                   +---------------------------------------+
