@@ -88,31 +88,6 @@ Small and medium-sized businesses (SMBs) and e-commerce merchants frequently suf
 
 ---
 
-## 🎬 5-Minute Judge Demo Workflow ("UrbanKart")
-
-The application includes a **1-Click "Seed UrbanKart Demo"** action that seeds 6 months of realistic transaction data showcasing 5 intentional problem scenarios:
-
-1. **Executive Dashboard Overview**:
-   - Observe current cash balance (**₹2,50,000** baseline) and Risk Score (**72/100 Moderate Risk**).
-   - Notice the active **Shortfall Warning Banner** alerting to a projected cash crunch in ~12 days.
-2. **Cash Forecast View**:
-   - Navigate to **Cash Flow Forecast** tab.
-   - Inspect the Recharts time-series chart with upper/lower confidence bands and switch between **7, 14, and 30-day** horizons.
-3. **Anomaly Audit**:
-   - Navigate to **Anomaly Detector** tab.
-   - Observe the detected **Duplicate SaaS Payment** to *CloudAnalytics Pro* (**₹14,500**) and **Ad Spend Surge** (**₹87,500/mo** vs ₹35,000 baseline).
-   - Click **Mark Reviewed** to audit the entry.
-4. **Risk Center & Actions**:
-   - Navigate to **Risk Center** tab.
-   - Review the 6-factor score meters and click **Execute Action** on *"Recover Overdue Payment from Acme Retail Stores (₹85,000)"*.
-5. **AI Copilot Resolution**:
-   - Open **AI Copilot Chat** tab.
-   - Click the prompt chip: *"How can I avoid the projected cash shortage?"*.
-   - Inspect how the agent calls `get_forecast`, `get_overdue_receivables`, `get_top_expenses`, and `get_anomalies` to deliver a grounded 3-step action plan.
-   - Open the **Tool Execution Audit Log** drawer to view raw tool invocation payloads.
-
----
-
 ## 💻 Installation & Local Setup Guide
 
 ### Prerequisites
