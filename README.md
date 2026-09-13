@@ -49,7 +49,7 @@ Small and medium-sized businesses (SMBs) and e-commerce merchants frequently suf
 
 ---
 
-## 🚀 Key Technical Features
+## Key Technical Features
 
 ### 1. ML Cash-Flow Forecasting Engine
 - Calculates daily historical net cash velocity.
