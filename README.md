@@ -4,6 +4,7 @@
 3. **Explainable Risk & Solvency Index (0–100)**: Quantitative scoring of 6 health factors (Cash Runway, Revenue Momentum, Expense Ratios, Overdue AR Ratio, 7-Day Obligation Coverage, and Volatility).
 4. **Tool-Grounded AI Agent**: A function-calling AI Copilot that directly queries database tables and ML pipelines—ensuring natural language answers are 100% grounded in facts with zero financial hallucinations
 
+---
 
 ## Executive Summary
 
