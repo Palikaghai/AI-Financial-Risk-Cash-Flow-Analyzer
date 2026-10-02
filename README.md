@@ -47,8 +47,6 @@ Small and medium-sized businesses (SMBs) and e-commerce merchants frequently suf
                                  +-------------------------+
 ```
 
----
-
 ## Key Technical Features
 
 ### 1. ML Cash-Flow Forecasting Engine
